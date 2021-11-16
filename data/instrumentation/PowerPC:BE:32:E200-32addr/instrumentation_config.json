@@ -1,0 +1,17 @@
+{
+	"name": "VLE instrumentation configuration",
+	
+	"strategies": [
+		{
+			"name": "trampoline",
+			"desired_patch_size": 4,
+		
+			"blacklisted_mnemonics": [
+				"se_b",
+				"e_b"
+			]
+		}
+	]
+	
+
+}
